@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    font-size: 140%;
+}
+body{
+    
+    font-family: 'VT323', monospace;
+    /* background-color: rgb(104, 199, 8); */
+    color: blueviolet;
+}
+.container{
+    width:80%;
+/* height:50px; */
+/* height:70%; */
+    padding:1rem;
+    background: linear-gradient(to right,rgb(151, 184, 238),rgb(177, 183, 239));
+    margin:2rem auto;
+    border-radius:.5em;
+    box-shadow: 0 1 px 6px rgba(0,0,0,0.12);
+
+}
+header{
+    border-bottom: 6px blueviolet solid;
+    border-radius: 5px;
+
+}
+input[type=number]{
+    border-radius:10px;
+    border:none;
+    text-align: center;
+}
+.number{
+    font-size: 5rem;
+    text-align: center;
+    padding:1rem;
+    width:8rem;
+    border:6px blueviolet dashed;
+    margin:0.5rem auto;
+
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.guess{
+    width: 7rem;
+    display:block;
+    margin:1rem auto;
+    font-size:4rem;
+    font-family: 'VT323', monospace;
+}
+.match{
+    border:none;
+    font-size:1.5rem;
+    padding:1rem;
+    margin:0.5rem auto;
+    /* font-weight: bold; */
+    display:block;
+    cursor:pointer;
+    border-radius: 10px;
+    color:red;
+    font-family: 'VT323', monospace;
+    
+}
+.match:hover{
+    background-color: blueviolet;
+/* border: 3px black solid ; */
+}
+.message{
+    margin:1rem auto;
+    font-size:3rem;
+    text-align: center;
+
+}
+.msg-score{
+    font-size:2rem;
+    text-align: center;
+    color: red;
+}
+.score{
+    color:blueviolet;
+}
